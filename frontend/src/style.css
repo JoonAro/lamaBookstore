@@ -1,0 +1,66 @@
+.app {
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    gap: 10px;
+}
+
+.book {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(212, 253, 253);
+}
+
+.delete {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(255, 128, 128);
+    border-color: rgb(255, 205, 205);
+}
+
+.update {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(127, 127, 251);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(160, 160, 251);
+}
+
+.formButton {
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 145, 10);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
